@@ -15,16 +15,16 @@ Our robot is built using LEGO Mindstorms Inventor. It is designed to navigate au
 
 ## How to Run the Program
 1. Connect the LEGO Mindstorms Hub to your computer or tablet.
-2. Upload the program from the `src/` folder using the LEGO Mindstorms app.
+2. Upload the program from the [src](src/) folder using the LEGO Mindstorms app.
 3. Place the robot on the competition field and start the program.
 4. The robot will navigate avoiding obstacles using the ultrasonic sensors.
 
 ## Schematics and Design
-See the `schemes/` folder for diagrams showing sensor placement and motor connections.  
-See the `model/` folder for photos and documentation of the robot’s physical design.
+See the diagrams and files in the [schemes](schemes/) folder for sensor placement and motor connections.  
+See photos and documentation in the [model](model/) folder to learn about the robot’s physical design.
 
 ## Video Demonstrations
-Videos of the robot in action can be found in the `video/` folder.
+Watch videos of the robot in action in the [video](video/) folder.
 
 ## Credits
 - Team members: [Your Names Here]  
