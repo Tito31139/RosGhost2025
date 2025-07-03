@@ -13,15 +13,12 @@ This repository contains engineering materials for a self-driven vehicle model p
 - 3 Technic Distance Sensors (connected to ports D, E, and F)  
 - 1 Rechargeable battery 7.4V 2100mAh  
 - Integrated gyroscope  
-- 3D modeling designs for assembly  
 - Building instructions  
 
 ---
 
 ## 🚗 Robot Structure and Design
-The main design idea was developed by our team using two sources as guidelines: M.V.P and Anton's Mindstorms Hot Rod.  
-
-We used the Studio 2.0 application to create and 3D model all parts found in the `models/` directory.
+The main design idea was developed by our team using two sources as guidelines: M.V.P and Anton's Mindstorms Hot Rod.
 
 ---
 
@@ -40,9 +37,9 @@ We used the Studio 2.0 application to create and 3D model all parts found in the
 ---
 
 ## 📂 Repository Contents
-- `models/` — 3D modeled files for robot assembly.  
+- `models/` — Files related to robot assembly (if any).  
 - `other/` — Additional files such as operation processes and execution details.  
-- `schemes/` — Schematic diagrams in PNG format illustrating electronic components and their connections.  
+- `schemes/` — Schematic diagrams illustrating electronic components and their connections.  
 - `scr/` — Source code for the control software.  
 - `t-photos/` — Two photos of the team: an official one and a funny one.  
 - `v-photos/` — Six photos of the vehicle from different angles.  
