@@ -23,7 +23,7 @@ The main design idea was developed by our team using two sources as guidelines: 
 ---
 
 ## 🔌 Components Assembly and Operating Diagram
-- The `schemes/` directory contains:  
+- The [`schemes/`](./schemes/) directory contains:  
   - A connection diagram showing all port assignments.  
   - A process diagram detailing the robot's actions.  
   - A list and description of electronic components used.  
@@ -31,42 +31,37 @@ The main design idea was developed by our team using two sources as guidelines: 
 ---
 
 ## 💻 Programming Code
-- The `scr/` directory contains the main source code created using LEGO Inventor Mindstorms' block-based system and Python.  
+- The [`scr/programacion lego/`](./scr/programacion%20lego/) directory contains the main source code created using LEGO Inventor Mindstorms' block-based system and Python.  
 - All programming was done by our team.
 
 ---
 
 ## 📂 Repository Contents
-- `models/` — Files related to robot assembly (if any).  
-- `other/` — Additional files such as operation processes and execution details.  
-- `schemes/` — Schematic diagrams illustrating electronic components and their connections.  
-- `scr/` — Source code for the control software.  
-- `t-photos/` — Two photos of the team: an official one and a funny one.  
-- `v-photos/` — Six photos of the vehicle from different angles.  
-- `video/` — Video file demonstrating the robot driving.
+- [`model/V1/`](./model/V1/) — Files related to robot assembly and parts.  
+- [`docs/`](./docs/) — Project plan and competition program documents.  
+- [`schemes/`](./schemes/) — Schematic diagrams illustrating electronic components and their connections.  
+- [`scr/programacion lego/`](./scr/programacion%20lego/) — Source code for the control software.  
+- [`t-photos/`](./t-photos/) — Two photos of the team: an official one and a funny one.  
+- [`video/`](./video/) — Video file demonstrating the robot driving.
 
 ---
 
 ## 🚦 Mobility System
-Our robot is designed to autonomously evade lateral obstacles, complete three full rotations, and stop at its initial position by using:
+Our robot moves forward continuously using the rear motor (port B).  
+It uses three ultrasonic sensors connected to ports D (right), E (left), and F (front) to measure distances to obstacles.  
 
-- Rear motor (Large Angular Motor) connected to **port B** for forward movement.  
-- Front motor (Medium Angular Motor) connected to **port A** for turning.  
-- Three ultrasonic sensors connected to **ports D (right), E (left), and F (front)** for detecting obstacles.  
-- Integrated gyroscope to track orientation and rotations.
-
-### Key Mobility Features:
-- Continuous forward movement with rear motor.  
-- Lateral obstacle detection within 10 cm triggers stopping and turning maneuvers (90° left or right).  
-- Gyroscope tracks cumulative rotation; after three full rotations (1080°), the robot stops at the initial position.
+When the robot detects obstacles on the sides, it chooses to turn toward the side with more free space.  
+If there is a lot of free space, it makes turns at corners accordingly.  
+The integrated gyroscope counts the number of corners or full turns made.  
+After completing three full rotations or corners, the robot stops at its starting position.
 
 ---
 
 ## 🎯 Strategy Summary
 - Initialization of hub, motors, and sensors.  
 - Continuous forward motion with obstacle monitoring.  
-- Obstacle-triggered turning maneuvers using the front motor.  
-- Rotation tracking with gyroscope resets after every 360°.  
+- Turning toward the side with more free space when obstacles are detected.  
+- Rotation tracking with the gyroscope counting corners or full turns.  
 - Completion after three rotations and stopping.
 
 ---
