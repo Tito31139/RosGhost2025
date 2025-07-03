@@ -1,35 +1,41 @@
 # rosGhost2025 - Future Engineers WRO 2025
 
-## Team Introduction
+## 👥 Team Introduction
 We are the **rosGhost2025** team participating in the Future Engineers category of the WRO 2025 robotics competition.
 
-## Project Description
-Our robot is built using LEGO Mindstorms Inventor. It is designed to navigate autonomously by detecting obstacles using ultrasonic sensors and maneuvering with precise motor control.
+## 🤖 Project Description
+Our robot is built using LEGO Mindstorms Inventor. It is designed to navigate autonomously by detecting obstacles using ultrasonic sensors and maneuvering using motorized steering.
 
-## Components List
-- Large Motor (LEGO Mindstorms) - 1 unit: Drives the robot forward.
-- Medium Motor (LEGO Mindstorms) - 1 unit: Controls steering of front wheels.
-- Ultrasonic Sensors - 3 units: Measure distance to obstacles on front and sides.
-- LEGO Mindstorms Hub - 1 unit: The main controller.
-- Wheels - 4 units: Provide mobility and traction.
+## 🔧 Components List
 
-## How to Run the Program
+| Component                          | Quantity | Description                                                                                 |
+|-----------------------------------|----------|---------------------------------------------------------------------------------------------|
+| Large Motor (LEGO Mindstorms)     | 1        | Responsible for forward rotation, providing the main driving force to move the robot ahead.|
+| Medium Motor (LEGO Mindstorms)    | 1        | Controls steering by directing the front wheels for turning.                               |
+| Ultrasonic Sensors                | 3        | Measure distances at different locations around the robot to detect obstacles.             |
+| LEGO Mindstorms Hub               | 1        | The brain of the robot, controlling motors and sensors, running the program.               |
+| Wheels                            | 4        | Provide traction and mobility for the robot’s movement.                                    |
+
+## 🚀 How to Run the Program
 1. Connect the LEGO Mindstorms Hub to your computer or tablet.
-2. Upload the program from the [src](src/) folder using the LEGO Mindstorms app.
-3. Place the robot on the competition field and start the program.
-4. The robot will navigate avoiding obstacles using the ultrasonic sensors.
+2. Open the LEGO Mindstorms app and load the program from the `scr/programacion lego` folder.
+3. Place the robot on the field and start the program.
+4. The robot will begin navigating and avoiding obstacles using the ultrasonic sensors.
 
-## Schematics and Design
-See the diagrams and files in the [schemes](schemes/) folder for sensor placement and motor connections.  
-See photos and documentation in the [model](model/) folder to learn about the robot’s physical design.
+## 📂 Project Folders
 
-## Video Demonstrations
-Watch videos of the robot in action in the [video](video/) folder.
+- [Model v1](https://github.com/Tito31139/rosGhost2025/tree/main/model/V1) – Photos and documentation of the physical robot.
+- [Schemes](https://github.com/Tito31139/rosGhost2025/tree/main/schemes) – Diagrams and connection layouts.
+- [Programming (LEGO)](https://github.com/Tito31139/rosGhost2025/tree/main/scr/programacion%20lego) – Source code and program files.
+- [Testing Photos](https://github.com/Tito31139/rosGhost2025/tree/main/t-photos) – Photos of the robot during testing and development.
 
-## Credits
-- Team members: [Your Names Here]  
-- Mentor: [Mentor Name]  
-- Special thanks to LEGO Mindstorms community for support.
+## 🎥 Video Demonstrations
+*Coming soon in the `video/` folder*
+
+## 🙌 Credits
+- **Team members:** [Your Names Here]  
+- **Mentor:** [Mentor Name]  
+- Special thanks to the LEGO Mindstorms community and the WRO organizers.
 
 ---
 
