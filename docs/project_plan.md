@@ -39,7 +39,7 @@ The robot measures the initial distance and compares it with the final one, stop
 - Refine turning angles and path correction.
 
 ## 👥 Team Members and Roles
-- **Tito Quintero**: Programming, logic, and testing.
+- **Alexis Quintero**: Programming, logic, and testing.
 - **Fiorella Campos**: Assembly, building, documentation, GitHub uploads.
 - **José Filos**: Assembly, building, project coordination, GitHub support.
 
