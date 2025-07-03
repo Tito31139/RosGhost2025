@@ -57,6 +57,21 @@ After completing three full rotations or corners, the robot stops at its startin
 
 ---
 
+## 🏃‍♂️ How to Run the Program
+
+1. Turn on the LEGO Mindstorms Large Hub (model 88016) and connect it via Bluetooth or USB to your computer or tablet.  
+2. Open the LEGO Mindstorms Inventor app (recommended version 2.0 or higher).  
+3. Navigate to the folder [`scr/programacion lego/`](./scr/programacion%20lego/) in this repository and open the main program file.  
+4. Upload the program to the Hub.  
+5. Place the robot on the competition field or a flat surface.  
+6. Start the program from the app or directly on the Hub.  
+7. The robot will start moving autonomously, avoiding obstacles and performing the programmed maneuvers.  
+8. To stop the robot, use the stop button in the app or turn off the Hub.  
+
+*Make sure all motors and sensors are properly connected to the correct ports as described in the [`schemes/`](./schemes/) folder.*
+
+---
+
 ## 🎯 Strategy Summary
 - Initialization of hub, motors, and sensors.  
 - Continuous forward motion with obstacle monitoring.  
